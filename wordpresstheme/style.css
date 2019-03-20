@@ -1,0 +1,163 @@
+/*
+Theme Name: Shreesava
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: webplusinfotech team
+*/
+@import url('css/bootstrap.min.css');
+@import url('css/style.css');
+@import url('css/media.css');
+@import url('css/font-awesome.min.css');
+@import url('css/animate.css');
+/*404 */
+.error{ float:left; width:100%; margin:50px auto 0px auto; text-align:center; position:relative;}
+.error h1{ font-size:200px; font-family: 'poppinsmedium'; color:#fff; text-shadow: 0px 0px 6px #000; position:relative;}
+.text-bg{ width:100%; padding:50px 0px 100px 0px; background:#efefef; text-align:center;}
+.text-bg h6{ font-size:50px; color:#F00; font-family: 'poppinssemibold'; margin:0px 0px;}
+.text-bg p{ font-size:20px; color:#000; font-family: 'poppinsmedium';}
+.text-bg a{ color:#000; padding:10px 30px; border:1px solid #333; transition:all ease 0.5s; -moz-transition:all ease 0.5s; -ms-transition:all ease 0.5s; -webkit-transition:all ease 0.5s;}
+.text-bg a:hover{ background:#000; color:#fff;}
+
+@media only screen and (max-width: 480px){
+    .error h1 {
+        font-size: 100px;
+    }
+}
+
+/*404 END */
+
+
+/* No-records Start */
+
+.no-records{ margin:35px auto; text-align:center; position:relative; padding:50px 20px;}
+.no-records ul{ position:relative; margin:0px 0px; padding:0px 0px;}
+.no-records ul li{ display:inline-block; margin:0px 15px; text-align:left; font-family: 'Montserrat', sans-serif;}
+.no-records ul li i{ background: #b5281e; width:150px; height:150px; font-size:50px; color:#fff; text-align:center; border:1px solid #efefef; line-height:150px; position:relative; top:-52px;  margin-top: 30px;}
+.no-records ul li h6{ font-size:50px; color:#333; font-family: 'poppinsmedium'; margin:0px 0px 0px 0px; line-height:50px;}
+.no-records ul li small{ font-size:30px; color:#666;}
+
+/* No-records End */
+
+
+
+
+
+#contact_inquiry img.wpcf7-form-control.wpcf7-captchac.wpcf7-captcha-captcha-1{
+    position: absolute;
+    right: 7px;
+    top: 15px;
+    bottom: 0;
+}
+#contact_inquiry .wpcf7-response-output{border: none;}
+
+
+.contact-form .wpcf7-captchac.wpcf7-captcha-captcha-1{ position: absolute;     right: 7px;     top: 15px;     bottom: 0;}
+.contact-form .wpcf7-response-output{border: none; float: left;}
+
+.btn-ajax {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: #B5281E;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    margin: 20px 0 30px 24px;   
+    display: inline-block;
+    border: none;
+}
+
+
+
+.navigation {
+    position: relative;
+    display: block;
+}
+
+.navigation ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navigation li a,
+.navigation li.disabled {
+    color: #fff !important;
+    text-decoration:none;
+    display:table;
+    padding:8px 15px;
+    background-color: #1c1c1c;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navigation li { display: inline-block; margin: 0px;}
+.navigation li a:hover{
+ background-color: #0091ea;
+    color: #fff!important;
+}
+.navigation li.active a{
+ background-color: #0091ea;
+    color: #fff!important;
+}
+
+.contact-form span.ajax-loader {
+    position: absolute;
+    float: left;
+    left: 34px;
+    top: 34px;
+}
+
+
+/*** 19-3-19 ***/
+.col-md-12:last-child .video-text {
+    border-bottom: none;
+}
+.articles-content p {float:none;}
+.txt-only .testimonial-box.video-text {
+    margin-top: 40px;
+}
+.testimonial-video .testimonial-box.video-text {
+    border-bottom: none;
+    padding: 10px 10px 20px 5px;
+}
+.article-details span img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.article-details img {
+	height:auto;width:40%;
+	object-fit:contain;
+	margin:20px 0;
+}
+.articles img {
+	object-position:top;
+}
+.testmonial-title {
+    text-align: center;
+}
+.profile-content h3::before {left:0; right:0; margin:0 auto; }
+@media (max-width: 991px) {
+	.testimonial p {padding: 15px 78px 2px 0;}
+}
+.slice {min-height: 320px;}
+.slice a {
+    color: #B4271E;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    position: relative;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: block;
+    text-transform: capitalize;
+}
+.testimonial p {padding: 0px 0px 10px 0;text-align: center;}
+.testimonial h3 {text-align:center;}
+.testimonial-p::after {margin: 0 auto;right: 0;text-align: center;}
+
+header.site-header {position: absolute;width: 100%; top: 0; left: 0;}
+.middle-part {float: left;width: 100%;margin-top: 130px;}
+@media (max-width: 1199px) {
+	.middle-part {margin-top: 40px;}
+}
